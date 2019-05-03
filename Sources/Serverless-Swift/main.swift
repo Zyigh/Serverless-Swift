@@ -8,13 +8,14 @@ HeliumLogger.use()
 
 let router = Router()
 router.all(middleware: [StaticFileServer(), Compression()])
-router.add(templateEngine: StencilTemplateEngine())
+router.setDefault(templateEngine: StencilTemplateEngine())
 
 router.get("/") {
     _, response, next in
     
     do {
-        try response.send("<html><body><h1>Hello</h1></body></html>").end()
+//        try response.send("<html><body><h1>Hello</h1></body></html>").end()
+        try response.render("index", context: [:]).end()
         next()
     } catch let e {
         print(e.localizedDescription)

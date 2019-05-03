@@ -1,0 +1,6 @@
+{% extends "base.stencil" %}
+{% block body %}
+<h1>Hello Swift !</h1>
+<br>
+<p style="font-weight: bold">Ceci est un texte</p>
+{% endblock %}
