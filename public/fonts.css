@@ -2,6 +2,7 @@
 @font-face {
     font-family: "SF Pro";
     font-weight: 100;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Display-Ultralight.otf");
 }
 @font-face {
@@ -14,6 +15,7 @@
 @font-face {
     font-family: "SF Pro";
     font-weight: 200;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Display-Thin.otf");
 }
 @font-face {
@@ -26,6 +28,7 @@
 @font-face {
     font-family: "SF Pro";
     font-weight: 300;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Display-Regular.otf");
 }
 @font-face {
@@ -38,6 +41,7 @@
 @font-face {
     font-family: "SF Pro";
     font-weight: 400;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Display-Medium.otf");
 }
 @font-face {
@@ -50,6 +54,7 @@
 @font-face {
     font-family: "SF Pro";
     font-weight: 500;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Display-Semibold.otf");
 }
 @font-face {
@@ -62,6 +67,7 @@
 @font-face {
     font-family: "SF Pro";
     font-weight: 600;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Display-Bold.otf");
 }
 @font-face {
@@ -74,6 +80,7 @@
 @font-face {
     font-family: "SF Pro";
     font-weight: 700;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Display-Heavy.otf");
 }
 @font-face {
@@ -86,6 +93,7 @@
 @font-face {
     font-family: "SF Pro";
     font-weight: 800;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Display-Black.otf");
 }
 @font-face {
@@ -99,7 +107,7 @@
 @font-face {
     font-family: "SF Text";
     font-weight: 100;
-    font-style: italic;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Text-Light.otf");
 }
 @font-face {
@@ -112,7 +120,7 @@
 @font-face {
     font-family: "SF Text";
     font-weight: 200;
-    font-style: italic;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Text-Light.otf");
 }
 @font-face {
@@ -125,7 +133,7 @@
 @font-face {
     font-family: "SF Text";
     font-weight: 300;
-    font-style: italic;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Text-Regular.otf");
 }
 @font-face {
@@ -138,7 +146,7 @@
 @font-face {
     font-family: "SF Text";
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Text-Regular.otf");
 }
 @font-face {
@@ -151,7 +159,7 @@
 @font-face {
     font-family: "SF Text";
     font-weight: 500;
-    font-style: italic;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Text-Medium.otf");
 }
 @font-face {
@@ -164,7 +172,7 @@
 @font-face {
     font-family: "SF Text";
     font-weight: 600;
-    font-style: italic;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Text-Semibold.otf");
 }
 @font-face {
@@ -177,7 +185,7 @@
 @font-face {
     font-family: "SF Text";
     font-weight: 700;
-    font-style: italic;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Text-Bold.otf");
 }
 @font-face {
@@ -190,7 +198,7 @@
 @font-face {
     font-family: "SF Text";
     font-weight: 800;
-    font-style: italic;
+    font-style: normal;
     src: url("fonts/SF PRO/SF-Pro-Text-Heavy.otf");
 }
 @font-face {
@@ -199,6 +207,3 @@
     font-style: italic;
     src: url("fonts/SF PRO/SF-Pro-Text-HeavyItalic.otf");
 }
-
-
-
