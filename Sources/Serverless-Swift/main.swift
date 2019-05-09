@@ -26,3 +26,19 @@ router.get("/") {
 
 Kitura.addHTTPServer(onPort: 80, with: router)
 Kitura.run()
+
+struct Hello: Codable {
+    let greetings: String
+}
+
+struct Person: Codable {
+    let name: String?
+}
+
+func main(input: Person, respondWith: (Hello?, Error?) -> Void) -> Void {
+    guard let name = input.name else {
+        respondWith(Hello(greetings: "Hello World !"), nil)
+    }
+
+    respondWith(Hello(greetings: "Hello \(name) !"), nil)
+}

@@ -3,4 +3,5 @@
 <h1>Hello Swift !</h1>
 <br>
 <p>Ceci est un texte</p>
+<div>"Un essai sur les &quot; quotes &quot;"</div>
 {% endblock %}
